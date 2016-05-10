@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bus_route_array">
+        <item>Select a Bus Route...</item>
+        <item>Late Bus A</item>
+        <item>Late Bus B</item>
+        <item>Late Bus C</item>
+        <item>Late Bus D</item>
+        <item>Late Bus D / Canal Pointe/Meadow Road EXPRESS</item>
+        <item>Late Bus D / Estates at Princeton Junction EXPRESS</item>
+        <item>Late Bus E</item>
+        <item>Late Bus E / Ravens Crest EXPRESS</item>
+        <item>Late Bus F</item>
+        <item>Late Bus G</item>
+        <item>Late Bus H</item>
+        <item>Late Bus H / Walker Gordon Farm EXPRESS</item>
+        <item>Late Bus I</item>
+        <item>Late Bus J</item>
+        <item>Late Bus K</item>
+        <item>Late Bus L</item>
+    </string-array>
+    <string-array name="bus_location_array">
+        <item>Select a School...</item>
+        <item>High School South</item>
+        <item>High School North</item>
+        <item>Grover Middle School</item>
+        <item>Community Middle School</item>
+    </string-array>
+</resources>

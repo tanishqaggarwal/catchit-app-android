@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Catch It</string>
+    <string name="setup_title">Let\'s get started</string>
+    <string name="setup_time_text">When does your late bus normally arrive? (Try to be as accurate about this as possible, and an earlier estimate is better than a later one.)</string>
+    <string name="setup_location_text">Where do you normally board the late bus from?</string>
+    <string name="setup_route_text">What late bus route are you on? Select the one that applies to you best (e.g. if an express route option applies to you, select that instead of the normal late bus entry).</string>
+    <string name="setup_complete_text">You don\'t need to do anything more! The next time you should open this app is on the day you have to catch the late bus. You\'ll be able to track it in real time!</string>
+    <string name="registration_error_text">Looks like there was an error registering. Would you like to try again or quit?\n\nIf the problem persists, you should contact the app developer at hello@catchit.com.</string>
+    <string name="passcode_text">To protect this app from being used by stalkers, abductors, etc. you must enter this app\'s passcode, which you can find either by emailing the developer or asking friends. Please keep this secret unless someone trustworthy asks you for it!</string>
+    <string name="title_activity_track_map">Map</string>
+    <string name="title_activity_login">Log In</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="location_services_text">Allow this phone to use location services to report the location of the bus. Your location will never be publicly revealed, be analyzed personally by the app developers, or be stored on our servers for more than a few hours. Also, this app won\'t work if no one contributes to tracking the bus, so if your data limits allow so, please keep this setting enabled!! Tests show that the app only uses about 0.1 MB/day if location services is enabled. </string>
+
+    <string name="ask_for_boarding_notification_title_template">Ask for boarding: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="ask_for_boarding_notification_placeholder_text_template">You said %1$s and lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit
+        vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+    <string name="looks_like_youre_moving_notification_title_template">Looks like youre moving:
+        %1$s
+    </string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="looks_like_youre_moving_notification_placeholder_text_template">You said %1$s and
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum,
+        velit vel semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed
+        turpis. Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem,
+        ullamcorper ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet
+        turpis viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat
+        nec nec tortor.
+    </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General menu_settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example menu_settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example menu_settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="setup_password_hint">Set a Password (min. 8 characters)</string>
+    <string name="setup_email_hint">Your Email Address</string>
+    <string name="setup_name_hint">Your Name</string>
+    <string name="setup_title_text">We just need a few things...</string>
+
+    <string name="bus_is_here_notification_title_template">Bus is here: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="bus_is_here_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_track_now">TrackNowActivity</string>
+</resources>

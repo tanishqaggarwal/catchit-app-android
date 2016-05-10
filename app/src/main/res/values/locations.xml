@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="south_latitude" format="float" type="dimen">40.306130</item>
+    <item name="south_longitude" format="float" type="dimen">-74.619806</item>
+    <item name="north_latitude" format="float" type="dimen">40.322581</item>
+    <item name="north_longitude" format="float" type="dimen">-74.600277</item>
+    <item name="grover_longitude" format="float" type="dimen">40.272366</item>
+    <item name="grover_latitude" format="float" type="dimen">-74.595156</item>
+    <item name="community_longitude" format="float" type="dimen">40.324511</item>
+    <item name="community_latitude" format="float" type="dimen">-74.599018</item>
+</resources>
